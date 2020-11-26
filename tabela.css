@@ -1,0 +1,26 @@
+.table_titles, .table_cells_odd, .table_cells_even {
+	padding-right: 20px;
+    padding-left: 20px;
+    color: #000;
+
+}
+.table_titles {
+    color: #FFF;
+    background-color: #666;
+}
+.table_cells_odd {
+    background-color: #CCC;
+}
+.table_cells_even {
+    background-color: #FAFAFA;
+    }
+    table {
+    border: 2px solid #333;
+}
+
+.table_cells {
+	padding-right: 20px;
+    padding-left: 20px;
+    color: #000;
+
+}

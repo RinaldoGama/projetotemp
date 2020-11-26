@@ -1,0 +1,127 @@
+h1 {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 26px;
+   }
+
+   
+#caixa_temp {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-weight: bold;
+		width: 400px;
+		height: 300px;
+		border-width: 3px;
+   }
+
+
+#caixa_config {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-weight: bold;
+		width: 200px;
+		height: 80px;
+		border-width: 3px;
+   }   
+
+   
+b {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 14px;
+  }
+
+ 
+#rodape {
+		font-family: Ubuntu,Verdana, arial, sans-serif;
+		font-size: 12px;
+		clear:both;
+		padding:10px;
+	
+}
+	
+	
+a:link, a:active {
+	text-decoration: none;
+	color: royalblue;
+	}
+a:visited {
+		color: royalblue;
+		}
+a:hover {
+		text-decoration: underline; 
+		color: red;
+		font-size:105%;
+}
+
+
+#geral {
+    width:960px;
+    margin:0 auto;
+}
+#cabecalho {
+    padding:10px;
+	background:#fdd;
+}
+#conteudo-1 {
+    float:left;
+    /* diminuimos a largura para não quebrar o layout. 
+	 * valor antigo 220
+	*/
+	width:210px;
+	padding:5px;
+}
+#conteudo-2 {
+    float:right;
+    width:680px;
+}
+
+#conteudo-3 {
+    float:left;
+    /* diminuimos a largura para não quebrar o layout. 
+	 * valor antigo 220
+	*/
+	width:510px;
+	padding:5px;
+}
+#conteudo-4 {
+    float:right;
+    width:780px;
+}
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 160px;
+    }
+ul li {    position: relative;    
+}
+
+li ul {
+    position: absolute;
+    left: 159px;
+    top: 0;
+    display: none;
+    }
+	
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #777BB4;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc; 
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+li:hover ul { display: block; }
+
+ul li a:hover{
+
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc; }
+
